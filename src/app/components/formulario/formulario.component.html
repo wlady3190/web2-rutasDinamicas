@@ -1,0 +1,14 @@
+<div>
+    <form (ngSubmit)="guardarProducto( form )" #form="ngForm">
+        <label> ID:</label>
+        <input type="text" name="id" [(ngModel)]=id > <br>
+
+        <label>Producto: </label>
+        <input type="text" name="nombre" [(ngModel)] = producto> <br>
+
+        <label > Precio</label>
+        <input type="text" name="precio" [(ngModel)]=precio><br>
+<hr>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
