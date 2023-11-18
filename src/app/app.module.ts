@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { DetallesComponent } from './screens/detalles/detalles.component';
 import { PaulComponent } from './components/paul/paul.component';
+import { ProfeComponent } from './screens/profe/profe.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { PaulComponent } from './components/paul/paul.component';
     TablaComponent,
     DetallesComponent,
     PaulComponent,
+    ProfeComponent,
   ],
   imports: [
     BrowserModule,
