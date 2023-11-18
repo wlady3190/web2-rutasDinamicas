@@ -13,6 +13,7 @@ import { TablaComponent } from './components/tabla/tabla.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { DetallesComponent } from './screens/detalles/detalles.component';
+import { PaulComponent } from './components/paul/paul.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DetallesComponent } from './screens/detalles/detalles.component';
     FormularioComponent,
     TablaComponent,
     DetallesComponent,
+    PaulComponent,
   ],
   imports: [
     BrowserModule,
