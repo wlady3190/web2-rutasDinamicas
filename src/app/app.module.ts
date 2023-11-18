@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { DetallesComponent } from './screens/detalles/detalles.component';
 import { PaulComponent } from './components/paul/paul.component';
 import { ProfeComponent } from './screens/profe/profe.component';
+import { MauricioComponent } from './mauricio/mauricio.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ProfeComponent } from './screens/profe/profe.component';
     DetallesComponent,
     PaulComponent,
     ProfeComponent,
+    MauricioComponent,
   ],
   imports: [
     BrowserModule,
