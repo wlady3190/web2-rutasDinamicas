@@ -7,7 +7,7 @@ import { DetallesComponent } from './screens/detalles/detalles.component';
 import { KevinComponent } from './screens/kevin/kevin.component';
 import { PaulComponent } from './components/paul/paul.component';
 import { ProfeComponent } from './screens/profe/profe.component';
-
+import { MauricioComponent } from './mauricio/mauricio.component';
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'productos', component: ProductosComponent},
@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'kevin', component: KevinComponent},
   { path: 'paul', component: PaulComponent},
   { path: 'profe', component: ProfeComponent},
+  { path: 'mauricio',component:MauricioComponent},
 
   { path: '**', component: Error404Component}
 ];
