@@ -6,7 +6,10 @@ node{
         sh 'npm install'
     }
 
-    stage('COnstrucción de la app'){
+    stage('Construcción de la app'){
         sh 'npm run build'
+    }
+    stage('Copia de archivos a nginx'){
+        sh 'cp -r dist/ /home/wlady3190/Documentos/jenkins'
     }
 }
